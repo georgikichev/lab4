@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void googleMaps(View v)
     {
-        Uri u = Uri.parse("geo:56.1304,106.3468?z=5");
+        Uri u = Uri.parse("geo:56.1304,-106.3468?z=5");
         showMap(u);
     }
 
